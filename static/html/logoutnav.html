@@ -1,0 +1,41 @@
+<div id="nav">
+    <div id="nav-left">
+        <ul>
+            <li>
+                <a href="http://www.kongyixueyuan.com">孔壹学院</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="nav-menu">
+        <ul>
+            <li>
+                <a href='javascript:goLogin()'>首页</a>
+            </li>
+            <li>
+                <a href='javascript:goLogin()'>币币交易</a>
+            </li>
+            <li>
+                <a href='javascript:goLogin()'>我的财务</a>
+            </li>
+        </ul>
+    </div>
+    <div id="nav-login">
+        <ul>
+            <li>
+                <a href="/login.html">登录</a>
+            </li>
+            <li>
+                <a href="/register.html">注册</a>
+            </li>
+        </ul>
+    </div>
+
+    <script>
+        function goLogin() {
+            if (confirm("去登录？")) {
+                window.location.href = "/login.html"
+            }
+        }
+    </script>
+</div>
